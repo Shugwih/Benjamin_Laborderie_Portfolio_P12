@@ -15,16 +15,16 @@
                 "name": "Intégration React",
                 "link": "https://github.com/Shugwih/Benjamin_Laborderie_Kasa_P8_0124.git",
                 "image": {
-                    "src": "../src/assets/exemple_320px.webp",
-                    "srcSet": "../src/assets/exemple_320px.webp 2x, ../src/assets/exemple_678px.webp 3x"
+                    "src": "./assets/exemple_320px.webp",
+                    "srcSet": "./assets/exemple_320px.webp 2x, ./assets/exemple_678px.webp 3x"
                 }
             },
             {
                 "name": "Débug de code",
                 "link": "https://github.com/Shugwih/Benjamin_Laborderie_724events_P10_0324",
                 "image": {
-                    "src": "../src/assets/exemple_320px.webp",
-                    "srcSet": "../src/assets/exemple_320px.webp 2x, ../src/assets/exemple_678px.webp 3x"
+                    "src": "./assets/exemple_320px.webp",
+                    "srcSet": "./assets/exemple_320px.webp 2x, ./assets/exemple_678px.webp 3x"
                 }
             },
             {
@@ -39,8 +39,8 @@
                 "name": "Intégration React - Redux",
                 "link": "https://github.com/Shugwih/Benjamin_Laborderie_ArgentBank-website_P11_0424",
                 "image": {
-                    "src": "../src/assets/exemple_320px.webp",
-                    "srcSet": "../src/assets/exemple_320px.webp 2x, ../src/assets/exemple_678px.webp 3x"
+                    "src": "./assets/exemple_320px.webp",
+                    "srcSet": "./assets/exemple_320px.webp 2x, ./assets/exemple_678px.webp 3x"
                 }
             }
         ],
