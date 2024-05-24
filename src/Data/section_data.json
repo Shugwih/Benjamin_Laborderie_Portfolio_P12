@@ -12,13 +12,36 @@
         "label": "RÉALISATIONS",
         "galleryItems": [
             {
-                "name": "Projet 1",
+                "name": "Intégration React",
                 "link": "https://github.com/Shugwih/Benjamin_Laborderie_Kasa_P8_0124.git",
-                "image": "../src/assets/react.svg"
+                "image": {
+                    "src": "../src/assets/exemple_320px.webp",
+                    "srcSet": "../src/assets/exemple_320px.webp 2x, ../src/assets/exemple_678px.webp 3x"
+                }
             },
             {
-                "name": "Projet 2",
-                "link": "https://username.github.io/project2"
+                "name": "Débug de code",
+                "link": "https://github.com/Shugwih/Benjamin_Laborderie_724events_P10_0324",
+                "image": {
+                    "src": "../src/assets/exemple_320px.webp",
+                    "srcSet": "../src/assets/exemple_320px.webp 2x, ../src/assets/exemple_678px.webp 3x"
+                }
+            },
+            {
+                "name": "Optimisation d'un site web",
+                "link": "https://shugwih.github.io/Benjamin_Laborderie_Nina-Carducci_P9_0224/",
+                "image": {
+                    "src": "../src/assets/exemple_320px.webp",
+                    "srcSet": "../src/assets/exemple_320px.webp 2x, ../src/assets/exemple_678px.webp 3x"
+                }
+            },
+            {
+                "name": "Intégration React - Redux",
+                "link": "https://github.com/Shugwih/Benjamin_Laborderie_ArgentBank-website_P11_0424",
+                "image": {
+                    "src": "../src/assets/exemple_320px.webp",
+                    "srcSet": "../src/assets/exemple_320px.webp 2x, ../src/assets/exemple_678px.webp 3x"
+                }
             }
         ],
         "withLinks": true

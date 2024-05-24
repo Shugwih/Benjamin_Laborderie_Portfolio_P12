@@ -47,8 +47,9 @@
 .card {
     background: $primary-color_2;
     border-radius: 8px;
+    border: 2px solid transparent;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
     width: 300px; 
     text-align: center;
@@ -57,6 +58,7 @@
     &:hover {
         transform: translateY(-10px);
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        border: 2px solid $primary-color_3;
     }
     .cardImage {
         width: 100%;

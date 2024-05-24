@@ -17,10 +17,19 @@ function Gallery({ items, withLinks, type }) {
                             disableDefaultStyle={true}
                         >
                             <div className={styles.card}>
-                                <div 
-                                    className={styles.cardImage} 
-                                    style={{ backgroundImage: `url(${item.image})` }}
-                                />
+                                {item.image && item.image.src ? (
+                                    <div 
+                                        className={styles.cardImage} 
+                                        style={{ backgroundImage: `url(${item.image.src})` }}
+                                    >
+                                        <img 
+                                            src={item.image.src} 
+                                            srcSet={item.image.srcSet} 
+                                            sizes="(max-width: 600px) 100vw, 300px" 
+                                            alt={item.name}
+                                        />
+                                    </div>
+                                ) : null}
                                 <div className={styles.cardContent}>
                                     <h3>{item.name}</h3>
                                 </div>
@@ -28,10 +37,19 @@ function Gallery({ items, withLinks, type }) {
                         </Button>
                     ) : (
                         <div key={index} className={styles.card}>
-                            <div 
-                                className={styles.cardImage} 
-                                style={{ backgroundImage: `url(${item.image})` }}
-                            />
+                            {item.image && item.image.src ? (
+                                <div 
+                                    className={styles.cardImage} 
+                                    style={{ backgroundImage: `url(${item.image.src})` }}
+                                >
+                                    <img 
+                                        src={item.image.src} 
+                                        srcSet={item.image.srcSet} 
+                                        sizes="(max-width: 600px) 100vw, 300px" 
+                                        alt={item.name}
+                                    />
+                                </div>
+                            ) : null}
                             <div className={styles.cardContent}>
                                 <h3>{item.name}</h3>
                             </div>
@@ -54,7 +72,10 @@ Gallery.propTypes = {
             name: PropTypes.string.isRequired,
             link: PropTypes.string,
             component: PropTypes.string,
-            image: PropTypes.string
+            image: PropTypes.shape({
+                src: PropTypes.string,
+                srcSet: PropTypes.string
+            })
         })
     ).isRequired,
     withLinks: PropTypes.bool,
