@@ -32,6 +32,22 @@ function Gallery({ items, withLinks, type }) {
                                 ) : null}
                                 <div className={styles.cardContent}>
                                     <h3>{item.name}</h3>
+                                    <div className={styles.cardDescription}>
+                                        <p>{item.description}</p>
+                                        <div className={styles.cardTags}>
+                                            {item.tags && item.tags.map((tag, tagIndex) => (
+                                                <span key={tagIndex} className={styles.tag}>{tag}</span>
+                                            ))}
+                                        </div>
+                                        <div className={styles.cardSkills}>
+                                            <h4>Compétences acquises :</h4>
+                                            <ul>
+                                                {item.skills && item.skills.map((skill, skillIndex) => (
+                                                    <li key={skillIndex}>{skill}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </Button>
@@ -52,6 +68,22 @@ function Gallery({ items, withLinks, type }) {
                             ) : null}
                             <div className={styles.cardContent}>
                                 <h3>{item.name}</h3>
+                                <div className={styles.cardDescription}>
+                                    <p>{item.description}</p>
+                                    <div className={styles.cardTags}>
+                                        {item.tags && item.tags.map((tag, tagIndex) => (
+                                            <span key={tagIndex} className={styles.tag}>{tag}</span>
+                                        ))}
+                                    </div>
+                                    <div className={styles.cardSkills}>
+                                        <h4>Compétences acquises :</h4>
+                                        <ul>
+                                            {item.skills && item.skills.map((skill, skillIndex) => (
+                                                <li key={skillIndex}>{skill}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     )
@@ -75,7 +107,10 @@ Gallery.propTypes = {
             image: PropTypes.shape({
                 src: PropTypes.string,
                 srcSet: PropTypes.string
-            })
+            }),
+            description: PropTypes.string,
+            tags: PropTypes.arrayOf(PropTypes.string),
+            skills: PropTypes.arrayOf(PropTypes.string)
         })
     ).isRequired,
     withLinks: PropTypes.bool,

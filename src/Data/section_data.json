@@ -17,7 +17,14 @@
                 "image": {
                     "src": "./assets/exemple_320px.webp",
                     "srcSet": "./assets/exemple_678px.webp 2x, ./assets/exemple.webp 3x"
-                }
+                },
+                "description": "Projet de développement d'une application de location immobilière avec React.",
+                "tags": ["React", "JavaScript", "Front-end"],
+                "skills": [
+                    "Initialiser une application avec Create React App",
+                    "Configurer la navigation entre les pages de l'application avec React Router",
+                    "Développer des éléments de l'interface d'un site web grâce à des composants React"
+                ]
             },
             {
                 "name": "Débug de code",
@@ -25,7 +32,14 @@
                 "image": {
                     "src": "./assets/exemple_320px.webp",
                     "srcSet": "./assets/exemple_678px.webp 2x, ./assets/exemple.webp 3x"
-                }
+                },
+                "description": "Projet de correction de bugs sur une application événementielle.",
+                "tags": ["Debugging", "JavaScript", "Troubleshooting"],
+                "skills": [
+                    "Identifier et corriger des bugs",
+                    "Débugger un site web grâce aux Chrome DevTools",
+                    "Rédiger un cahier de recette pour tester un site"
+                ]
             },
             {
                 "name": "Optimisation d'un site web",
@@ -33,7 +47,14 @@
                 "image": {
                     "src": "./assets/exemple_320px.webp",
                     "srcSet": "./assets/exemple_678px.webp 2x, ./assets/exemple.webp 3x"
-                }
+                },
+                "description": "Optimisation des performances d'un site web pour une meilleure expérience utilisateur.",
+                "tags": ["Optimization", "Performance", "SEO"],
+                "skills": [
+                    "Analyser les performances d'un site web",
+                    "Améliorer l'accessibilité",
+                    "Optimiser le chargement des ressources pour améliorer la vitesse"
+                ]
             },
             {
                 "name": "Intégration React - Redux",
@@ -41,11 +62,18 @@
                 "image": {
                     "src": "./assets/exemple_320px.webp",
                     "srcSet": "./assets/exemple_678px.webp 2x, ./assets/exemple.webp 3x"
-                }
+                },
+                "description": "Développement d'une application bancaire en utilisant React et Redux.",
+                "tags": ["React", "Redux", "JavaScript"],
+                "skills": [
+                    "Gérer l'état global de l'application avec Redux",
+                    "Configurer des routes API pour la communication client / serveur",
+                    "Intégrer Redux avec une application React pour une gestion d'état avancée"
+                ]
             }
         ],
         "withLinks": true
-    },
+    },    
     {
         "id": "skills",
         "title": "Compétences",
