@@ -31,8 +31,8 @@
                 "name": "Optimisation d'un site web",
                 "link": "https://shugwih.github.io/Benjamin_Laborderie_Nina-Carducci_P9_0224/",
                 "image": {
-                    "src": "../src/assets/exemple_320px.webp",
-                    "srcSet": "../src/assets/exemple_320px.webp 2x, ../src/assets/exemple_678px.webp 3x"
+                    "src": "./public/assets/exemple_320px.webp",
+                    "srcSet": "./public/assets/exemple_320px.webp 2x, ./public/assets/exemple_678px.webp 3x"
                 }
             },
             {
