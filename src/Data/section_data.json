@@ -16,7 +16,7 @@
                 "link": "https://github.com/Shugwih/Benjamin_Laborderie_Kasa_P8_0124.git",
                 "image": {
                     "src": "./assets/exemple_320px.webp",
-                    "srcSet": "./assets/exemple_320px.webp 2x, ./assets/exemple_678px.webp 3x"
+                    "srcSet": "./assets/exemple_678px.webp 2x, ./assets/exemple.webp 3x"
                 }
             },
             {
@@ -24,7 +24,7 @@
                 "link": "https://github.com/Shugwih/Benjamin_Laborderie_724events_P10_0324",
                 "image": {
                     "src": "./assets/exemple_320px.webp",
-                    "srcSet": "./assets/exemple_320px.webp 2x, ./assets/exemple_678px.webp 3x"
+                    "srcSet": "./assets/exemple_678px.webp 2x, ./assets/exemple.webp 3x"
                 }
             },
             {
@@ -32,7 +32,7 @@
                 "link": "https://shugwih.github.io/Benjamin_Laborderie_Nina-Carducci_P9_0224/",
                 "image": {
                     "src": "./assets/exemple_320px.webp",
-                    "srcSet": "./assets/exemple_320px.webp 2x, ./assets/exemple_678px.webp 3x"
+                    "srcSet": "./assets/exemple_678px.webp 2x, ./assets/exemple.webp 3x"
                 }
             },
             {
@@ -40,7 +40,7 @@
                 "link": "https://github.com/Shugwih/Benjamin_Laborderie_ArgentBank-website_P11_0424",
                 "image": {
                     "src": "./assets/exemple_320px.webp",
-                    "srcSet": "./assets/exemple_320px.webp 2x, ./assets/exemple_678px.webp 3x"
+                    "srcSet": "./assets/exemple_678px.webp 2x, ./assets/exemple.webp 3x"
                 }
             }
         ],
