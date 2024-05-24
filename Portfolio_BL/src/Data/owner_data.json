@@ -1,0 +1,14 @@
+{
+    "lastName": "Laborderie",
+    "firstName": "Benjamin",
+    "githubAddress": "https://github.com/Shugwih",
+    "emailAddress": "LoremIpsum@gmail.com",
+    "location": "Bordeaux, 33800, France",
+    "skills": [
+      { "name": "HTML", "level": 95, "color": "#e34c26" },
+      { "name": "CSS", "level": 85, "color": "#264de4" },
+      { "name": "JavaScript", "level": 60, "color": "#f0db4f" },
+      { "name": "React", "level": 80, "color": "#61dafb" },
+      { "name": "Redux", "level": 50, "color": "#764abc" }
+  ]
+}

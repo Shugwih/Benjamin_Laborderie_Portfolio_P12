@@ -1,0 +1,63 @@
+[
+    {
+        "id": "presentation",
+        "title": "À propos de moi",
+        "content": "Développeur web récemment diplômé et passionné par le domaine depuis toujours, je suis actuellement spécialisé en développement avec React. Je conçois et développe le front-end de vos sites web de A à Z, ou les mets à jour selon vos besoins spécifiques, en garantissant une expérience utilisateur optimale et un design moderne.",
+        "label": "À PROPOS"
+    },
+    {
+        "id": "works",
+        "title": "Réalisations",
+        "content": "Découvrez ci-dessous quelques uns de mes projets.",
+        "label": "RÉALISATIONS",
+        "galleryItems": [
+            {
+                "name": "Projet 1",
+                "link": "https://github.com/Shugwih/Benjamin_Laborderie_Kasa_P8_0124.git",
+                "image": "../src/assets/react.svg"
+            },
+            {
+                "name": "Projet 2",
+                "link": "https://username.github.io/project2"
+            }
+        ],
+        "withLinks": true
+    },
+    {
+        "id": "skills",
+        "title": "Compétences",
+        "content": "Découvrez mes domaines d'expertise. Perpétuel autodidacte, mes compétences évoluent chaque jour, et de nouvelles viennent constamment enrichir mes acquis.",
+        "label": "COMPÉTENCES"
+    },
+    {
+        "id": "tech",
+        "title": "Technologies",
+        "content": "Voici les outils que j'utilise.",
+        "label": "TECHNOLOGIES",
+        "galleryItems": [
+            {
+                "name": "Github",
+                "component": "Github"
+            },
+            {
+                "name": "React",
+                "component": "React"
+            },
+            {
+                "name": "Vite",
+                "component": "Vite"
+            },
+            {
+                "name": "Sass",
+                "component": "Sass"
+            }
+        ],
+        "withLinks": false
+    },
+    {
+        "id": "contact",
+        "title": "Contact",
+        "content": "Vous avez un projet ?",
+        "label": "CONTACT"
+    }
+]

@@ -1,0 +1,67 @@
+@import '../../styles/variables.scss';
+
+.header {
+  background-color: $primary-color_2;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px $menu-shadow-color;
+  position: fixed; 
+  top: 0;  
+  width: 100%;  
+  height: 85px;
+  z-index: 1000; 
+  transition: background-color 0.3s ease;
+  box-sizing: border-box; 
+
+  &:hover {
+    background-color: $primary-color_1;
+
+    .nav .menu li a,
+    .nav .burger-menu .bar {
+      background-color: $secondary-color_1;
+      color: $secondary-color_2;
+    }
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .burger-menu {
+      display: block;
+      margin-left: 0;
+
+      @media (min-width: 1024px) {
+        display: none;
+      }
+    }
+
+    .menu {
+      display: none;
+
+      @media (min-width: 1024px) {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        li {
+          margin: 0 1rem;
+
+          a {
+            text-decoration: none;
+            color: $secondary-color_2;
+            transition: color 0.3s ease, background-color 0.3s ease;
+
+            &:hover {
+              color: $secondary-color_1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

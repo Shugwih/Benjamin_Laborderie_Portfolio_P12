@@ -1,0 +1,52 @@
+@import '../../styles/variables';
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+textarea {
+    height: 105px;
+    @media (min-width: 768px) {
+        width: 320px;
+    }
+}
+
+.input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid $primary_color-3;
+    border-radius: 4px;
+    &:focus {
+        border: 3px solid $primary_color-3;
+        outline: none;
+    }
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: $primary-color_2;
+    color: $primary-color_1;
+    font-weight: $font-bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: $primary-color_1;
+        color: $primary_color-3;
+    }
+}

@@ -1,0 +1,94 @@
+@import '../../styles/variables.scss';
+
+.modal {
+    position: fixed;
+    top: $header-height;
+    left: 0;
+    width: 100%;
+    height: calc(100% - $header-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .content {
+        position: relative;
+        padding: 20px;
+        z-index: 1001;
+        margin-top: 1rem;
+        transform: translateX(-100%);
+        animation: slideInFromLeft 0.5s forwards;
+
+        @keyframes slideInFromLeft {
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        nav {
+            ul {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 2.5rem;
+
+                li {
+                    list-style: none;
+
+                    .modal-button {
+                        position: relative;
+                        display: inline-block;
+                        padding: 1rem 2rem;
+                        font-size: 1.2rem;
+                        text-align: center;
+                        color: $secondary-color_2;
+                        border-radius: 4px;
+                        text-decoration: none;
+                        transition: all 0.5s;
+
+                        &:hover {
+                            background-color: transparent;
+                            padding-right: 24px;
+                            padding-left: 8px;
+
+                            &:after {
+                                opacity: 1;
+                                right: 4px;
+                            }
+                        }
+
+                        &:after {
+                            content: '»';
+                            color: $primary-color_4;
+                            font-size: 2rem;
+                            position: absolute;
+                            opacity: 0;
+                            top: 6px;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

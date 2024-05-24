@@ -1,0 +1,42 @@
+@import '../../styles/variables';
+
+.button {
+    font-family: $font-default;
+    font-weight: $font-bold;
+    color: $secondary-color_1;
+    background-color: transparent;
+    padding: 10px 20px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 15px 100%, 0 calc(100% - 15px));
+
+    @media (min-width: 1024px) {
+        &:hover {
+            background-color: $secondary-color_1!important;
+            color: $secondary-color_2!important;
+        }
+    }
+
+    &.hovered {
+        background-color: $secondary-color_2;
+        color: $secondary-color_1;
+    }
+}
+
+.button #contactButton a {
+    background-color: $primary-color_2!important;
+    color: $secondary-color_1!important;
+    text-decoration: none;
+
+    @media (min-width: 1024px) {
+        &:hover {
+            background-color: $secondary-color_1!important;
+            color: $secondary-color_2!important;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.intro {
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.contactButton {
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: $primary-color_1;
+    padding: 10px 20px; 
+    border: 2px solid $primary-color_1;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: auto; 
+    &:hover {
+        background-color: $primary-color_1;
+        color: $primary-color_2;
+    }
+}
